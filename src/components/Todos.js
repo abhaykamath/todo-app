@@ -13,15 +13,13 @@ function Todos({ todoList, deleteTodo }) {
               <>
                 <div className="todo-tile">
                   <div>{todo.data}</div>
-                  <div>
-                    <button
-                      onClick={() => {
-                        deleteTodo(todo.id);
-                      }}
-                    >
-                      Delete <i className="fa-solid fa-trash"></i>
-                    </button>
-                  </div>
+                  <button
+                    onClick={() => {
+                      deleteTodo(todo.id);
+                    }}
+                  >
+                    <i className="fa-solid fa-trash"></i>
+                  </button>
                 </div>
               </>
             );
