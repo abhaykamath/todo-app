@@ -1,0 +1,12 @@
+.navbar {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  background-color: #de483a;
+  color: #eeeeee;
+}

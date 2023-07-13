@@ -1,0 +1,37 @@
+.todos-container-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  padding: 1rem 5rem;
+  gap: 1rem;
+}
+
+.todos-container {
+  box-sizing: border-box;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.todo-tile {
+  box-sizing: border-box;
+  border-radius: 0.25rem;
+  width: 30%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.25rem;
+  background-color: #eeeeee;
+  color: #181818;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.45) inset;
+}
+
+@media (max-width: 750px) {
+    .todo-tile {
+        width: 90%;
+    }
+  }
+  
